@@ -98,9 +98,35 @@ a collagen mask. The extracted masks were then merged into a large mask: \\
 
 \section{Features Generation}
 
-
 After the collagen is extracted, the next step is to analyse it and compute
-features that can allow to predict the patients diagnosis.
+the features that can allow to diagnose the patients. More specifically, a 
+large H\&E stained image is given corresponding to one patient. We wish to
+inspect the image and predict the cancer severity stage for that person. The
+following prediction pipiline is executed for this task:
+
+\begin{itemize}
+    
+\item A collagen mask is computed from the image. For that the image is split
+      into $256 \cdot 256$ tiles and the trained model is applied to each
+      of the tile. The tiles are then merged into a single mask. Noise is
+      removed from the mask.
+
+\item A skeletonization function is applied on the mask. This transforms
+      a white collagen regions into 1 pixel wide representations. The skeleton
+      tree is chopped into individual edges and each edge gets assigned a
+      unique id.
+
+\item A breath first search algorithm is then applied to find for each collagen
+      pixel in the mask its closest skeleton edge. In this way the collagen
+      is divided into regions and for each region we can compute its
+      features.
+
+\item For each region we compute several statistics. These include region
+      length and width, as well as haralick parameters. We then use these
+      parameters as features to predict the severity stage of cancer for
+      each patient.
+
+\end{itemize}
 
 
 
