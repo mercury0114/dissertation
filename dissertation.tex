@@ -7,21 +7,34 @@
 \begin{document}
 
 \title{Collagen Fiber Extraction and Analysis in the H\&E Dyed Cancer Tissue Images}
-\author{Marius Latinis}
+\author{Marius Latinis, marius.latinis@mf.stud.vu.lt \\
+        Mindaugas Mork\=nas, mindaugas.morkunas@mif.vu.lt \\
+        Povilas Treigys, povilas.treigys@mif.vu.lt}
 \affil{Institude of Data Science and Digital Technologies, Vilnius University,
        Akademijos str. 4, Vilnius, Lithuania
 }
 
+
 \maketitle
+
+\begin{abstract}
+    This paper investigates the use of artificial intelligence for
+    predicting cancer patients diagnosis from collagen fibers located in the digital
+    Hematoxylin and Eosin stained tissue images. The proposed technique uses a convolutional
+    neural network to extract a collagen mask from the image. The collagen mask is then fed
+    into a second neural network that predicts the diagnosis. We conclude that generating
+    meaningful prediction solely from collagen fibers is not enough. \\
+
+    \textbf{keywords:} Convolutional Neural Network, Collagen Fibers.
+\end{abstract}
+
 
 \section{Introduction}
 
 Visual examination of a tissue is a major part in cancer diagnosis. A
-trained pathologist is given a sample of a tissue to inspect.
-
-By looking at the tissue placed under a microscope or inspecting its digital
-image a pathologist diagnoses the severity of cancer and makes a prediction
-about the further treatment.
+trained pathologist is given a sample of a tissue to inspect. By looking at the tissue placed
+under a microscope or inspecting its digital image a pathologist diagnoses the severity of
+cancer and makes a prediction about the further treatment.
 
 Unfortunatelly, manual inspection is prone to error and inter-observer
 variability (e.g. different pathologists are trained differently). This
@@ -47,7 +60,9 @@ cancer, the histological section is likely to be stained with H\&E.
 Collagen is one particular component of a tissue. It is a protein located
 in the extracellular matrix, which becomes pink after the H\&E staining.
 It is believed that the metastatic tumor cells interact with oriented
-collagen fibers to invade the blood vessels. A specific Tumor Associated
+collagen fibers to invade the blood vessels. Several studies have shown a link between collagen remodeling and the invasion and progression of mammary cancer in mouse models [1,2,3].
+
+A specific Tumor Associated
 Collagen Signature 3 (TAC-3) is defined to emphasise this interaction. Image
 is considered to be TAC-3 positive if it contains many straight collagen
 fibers aligned normally to the epithelial cells boundary regions: \\
@@ -99,8 +114,8 @@ a collagen mask. The extracted masks were then merged into a large mask: \\
 \section{Features Generation}
 
 After the collagen is extracted, the next step is to analyse it and compute
-the features that can allow to diagnose the patients. More specifically, a 
-large H\&E stained image is given corresponding to one patient. We wish to
+the features that can allow to diagnose the patients. More specifically, a
+H\&E stained image is given corresponding to one patient. We wish to
 inspect the image and predict the cancer severity stage for that person. The
 following prediction pipiline is executed for this task:
 
@@ -128,6 +143,30 @@ following prediction pipiline is executed for this task:
 
 \end{itemize}
 
+
+\section{Output prediction}
+
+The section above gives multiple features (i.e. a list of numerical values) for
+each H\&E stained image. The final step is to use this feature list to predict
+the outcome. We have a cohort of 92 patients. 71 of them are related with the
+positive outcome, 21 with the negative. We split the data into training (70) and
+test sets (22). We train a binary classification model on the training data
+(a neural network with 2 dense hidden layers was chosen) and evaluate it on the
+test data. Unfortunatelly, the trained model does not perform better than
+the one which would assign outcomes randomly with a probability proportional
+to the sizes of the positive and negative outcome training sets.
+
+\section{References}
+
+\begin{enumerate}
+
+\item Provenzano PP, Eliceiri KW, Campbell JM, Inman DR, White JG, Keely PJ. Collagen reorganization at the tumor-stromal interface facilitates local invasion. BMC Med. 2006;4:38.
+
+\item Provenzano PP, Eliceiri KW, Yan L, Ada-Nguema A, Conklin MW, Inman DR, et al. Nonlinear optical imaging of cellular processes in breast cancer. Microsc Microanal. 2008;14:532–48.
+
+\item Provenzano PP, Inman DR, Eliceiri KW, Knittel JG, Yan L, Rueden CT, et al. Collagen density promotes mammary tumor initiation and progression. BMC Med. 2008;6:11.
+
+\end{enumerate}
 
 
 \end{document}

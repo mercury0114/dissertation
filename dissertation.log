@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.16)  6 OCT 2019 19:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.16)  15 DEC 2019 20:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1603,90 +1603,99 @@ or `english'. on input line 7.
 . Defining command \invacuo with sig. 'O{}' on line 7.
 .................................................
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--36
+Underfull \hbox (badness 10000) in paragraph at lines 21--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--49
 
  []
 
 <images/example.jpg, id=4, 127.1952pt x 94.6737pt>
 File: images/example.jpg Graphic file (type jpg)
 <use images/example.jpg>
-Package pdftex.def Info: images/example.jpg  used on input line 37.
+Package pdftex.def Info: images/example.jpg  used on input line 50.
 (pdftex.def)             Requested size: 199.16928pt x 148.25375pt.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/example.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 47--54
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 65--69
 
  []
 
-<images/tac3.png, id=15, 507.8975pt x 480.79625pt>
+<images/tac3.png, id=17, 507.8975pt x 480.79625pt>
 File: images/tac3.png Graphic file (type png)
 <use images/tac3.png>
-Package pdftex.def Info: images/tac3.png  used on input line 55.
+Package pdftex.def Info: images/tac3.png  used on input line 70.
 (pdftex.def)             Requested size: 199.16928pt x 188.53687pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--75
+[2 <./images/example.jpg> <./images/tac3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 87--90
 
  []
 
-[2 <./images/tac3.png>]
-<images/pair.png, id=21, 658.46pt x 330.23375pt>
+<images/pair.png, id=23, 658.46pt x 330.23375pt>
 File: images/pair.png Graphic file (type png)
 <use images/pair.png>
-Package pdftex.def Info: images/pair.png  used on input line 76.
+Package pdftex.def Info: images/pair.png  used on input line 91.
 (pdftex.def)             Requested size: 199.16928pt x 99.88719pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
-<images/unet.png, id=22, 739.76375pt x 502.87875pt>
+<images/unet.png, id=24, 739.76375pt x 502.87875pt>
 File: images/unet.png Graphic file (type png)
 <use images/unet.png>
-Package pdftex.def Info: images/unet.png  used on input line 80.
+Package pdftex.def Info: images/unet.png  used on input line 95.
 (pdftex.def)             Requested size: 345.0pt x 234.5268pt.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 80--81
+Overfull \hbox (15.0pt too wide) in paragraph at lines 95--96
 [][] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--96
+[3 <./images/pair.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 103--111
 
  []
 
-[3 <./images/pair.png> <./images/unet.png>]
-<images/test.png, id=29, 1116.17pt x 517.935pt>
+<images/test.png, id=30, 1116.17pt x 517.935pt>
 File: images/test.png Graphic file (type png)
 <use images/test.png>
-Package pdftex.def Info: images/test.png  used on input line 97.
+Package pdftex.def Info: images/test.png  used on input line 112.
 (pdftex.def)             Requested size: 345.0pt x 160.084pt.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 97--98
+Overfull \hbox (15.0pt too wide) in paragraph at lines 112--113
 [][] 
  []
 
-[4 <./images/test.png>] (./dissertation.aux) ) 
+[4 <./images/unet.png>] [5 <./images/test.png>]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+ [6] (./dissertation.aux) ) 
 Here is how much of TeX's memory you used:
- 25672 strings out of 492982
- 550890 string characters out of 6134895
+ 25676 strings out of 492982
+ 550926 string characters out of 6134895
  553708 words of memory out of 5000000
- 28872 multiletter control sequences out of 15000+600000
- 535367 words of font info for 39 fonts, out of 8000000 for 9000
+ 28874 multiletter control sequences out of 15000+600000
+ 535974 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,107p,10380b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips
-/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
-12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/
-texmf/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on dissertation.pdf (4 pages, 1623559 bytes).
+ 75i,6n,107p,10380b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-
+ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/type1/public/cm-super/
+sfrm1000.pfb>
+Output written on dissertation.pdf (6 pages, 1656633 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
+ 73 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
