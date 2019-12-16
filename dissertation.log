@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.16)  15 DEC 2019 20:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.12.16)  16 DEC 2019 21:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1608,78 +1608,256 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--27
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--49
+Underfull \hbox (badness 10000) in paragraph at lines 42--46
 
  []
 
 <images/example.jpg, id=4, 127.1952pt x 94.6737pt>
 File: images/example.jpg Graphic file (type jpg)
 <use images/example.jpg>
-Package pdftex.def Info: images/example.jpg  used on input line 50.
+Package pdftex.def Info: images/example.jpg  used on input line 47.
 (pdftex.def)             Requested size: 199.16928pt x 148.25375pt.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 65--69
+Underfull \hbox (badness 10000) in paragraph at lines 57--71
 
  []
 
 <images/tac3.png, id=17, 507.8975pt x 480.79625pt>
 File: images/tac3.png Graphic file (type png)
 <use images/tac3.png>
-Package pdftex.def Info: images/tac3.png  used on input line 70.
+Package pdftex.def Info: images/tac3.png  used on input line 72.
 (pdftex.def)             Requested size: 199.16928pt x 188.53687pt.
-[2 <./images/example.jpg> <./images/tac3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 87--90
+[2 <./images/example.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 87--97
 
  []
 
-<images/pair.png, id=23, 658.46pt x 330.23375pt>
+<images/pair.png, id=22, 658.46pt x 330.23375pt>
 File: images/pair.png Graphic file (type png)
 <use images/pair.png>
-Package pdftex.def Info: images/pair.png  used on input line 91.
+Package pdftex.def Info: images/pair.png  used on input line 98.
 (pdftex.def)             Requested size: 199.16928pt x 99.88719pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+[3 <./images/tac3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 100--110
 
  []
 
-<images/unet.png, id=24, 739.76375pt x 502.87875pt>
+<images/unet.png, id=28, 739.76375pt x 502.87875pt>
 File: images/unet.png Graphic file (type png)
 <use images/unet.png>
-Package pdftex.def Info: images/unet.png  used on input line 95.
+Package pdftex.def Info: images/unet.png  used on input line 111.
 (pdftex.def)             Requested size: 345.0pt x 234.5268pt.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 95--96
+Overfull \hbox (15.0pt too wide) in paragraph at lines 111--112
 [][] 
  []
 
-[3 <./images/pair.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 103--111
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--122
 
  []
 
-<images/test.png, id=30, 1116.17pt x 517.935pt>
+[4 <./images/pair.png> <./images/unet.png>]
+<images/test.png, id=34, 1116.17pt x 517.935pt>
 File: images/test.png Graphic file (type png)
 <use images/test.png>
-Package pdftex.def Info: images/test.png  used on input line 112.
+Package pdftex.def Info: images/test.png  used on input line 123.
 (pdftex.def)             Requested size: 345.0pt x 160.084pt.
 
-Overfull \hbox (15.0pt too wide) in paragraph at lines 112--113
+Overfull \hbox (15.0pt too wide) in paragraph at lines 123--124
 [][] 
  []
 
-[4 <./images/unet.png>] [5 <./images/test.png>]
+[5 <./images/test.png>]
+<plots/width.jpg, id=40, 1419.3025pt x 1003.75pt>
+File: plots/width.jpg Graphic file (type jpg)
+<use plots/width.jpg>
+Package pdftex.def Info: plots/width.jpg  used on input line 178.
+(pdftex.def)             Requested size: 184.9429pt x 130.78308pt.
+<plots/length.jpg, id=41, 1419.3025pt x 1003.75pt>
+File: plots/length.jpg Graphic file (type jpg)
+<use plots/length.jpg>
+Package pdftex.def Info: plots/length.jpg  used on input line 178.
+(pdftex.def)             Requested size: 184.9429pt x 130.78308pt.
+<plots/ratio.jpg, id=42, 1419.3025pt x 1003.75pt>
+File: plots/ratio.jpg Graphic file (type jpg)
+<use plots/ratio.jpg>
+Package pdftex.def Info: plots/ratio.jpg  used on input line 179.
+(pdftex.def)             Requested size: 184.9429pt x 130.78308pt.
+<plots/h1.jpg, id=43, 1419.3025pt x 1003.75pt>
+File: plots/h1.jpg Graphic file (type jpg)
+<use plots/h1.jpg>
+Package pdftex.def Info: plots/h1.jpg  used on input line 179.
+(pdftex.def)             Requested size: 184.9429pt x 130.78308pt.
+<plots/h2.jpg, id=44, 1419.3025pt x 1003.75pt>
+File: plots/h2.jpg Graphic file (type jpg)
+<use plots/h2.jpg>
+Package pdftex.def Info: plots/h2.jpg  used on input line 180.
+(pdftex.def)             Requested size: 184.9429pt x 130.78308pt.
+<plots/h3.jpg, id=45, 1419.3025pt x 1003.75pt>
+File: plots/h3.jpg Graphic file (type jpg)
+<use plots/h3.jpg>
+Package pdftex.def Info: plots/h3.jpg  used on input line 180.
+(pdftex.def)             Requested size: 184.9429pt x 130.78308pt.
+<plots/h4.jpg, id=46, 1419.3025pt x 1003.75pt>
+File: plots/h4.jpg Graphic file (type jpg)
+<use plots/h4.jpg>
+Package pdftex.def Info: plots/h4.jpg  used on input line 181.
+(pdftex.def)             Requested size: 184.9429pt x 130.78308pt.
+<plots/h5.jpg, id=47, 1419.3025pt x 1003.75pt>
+File: plots/h5.jpg Graphic file (type jpg)
+<use plots/h5.jpg>
+Package pdftex.def Info: plots/h5.jpg  used on input line 181.
+(pdftex.def)             Requested size: 184.9429pt x 130.78308pt.
+<plots/h6.jpg, id=48, 1419.3025pt x 1003.75pt>
+File: plots/h6.jpg Graphic file (type jpg)
+<use plots/h6.jpg>
+Package pdftex.def Info: plots/h6.jpg  used on input line 182.
+(pdftex.def)             Requested size: 184.9429pt x 130.78308pt.
+<plots/h7.jpg, id=49, 1419.3025pt x 1003.75pt>
+File: plots/h7.jpg Graphic file (type jpg)
+<use plots/h7.jpg>
+Package pdftex.def Info: plots/h7.jpg  used on input line 182.
+(pdftex.def)             Requested size: 184.9429pt x 130.78308pt.
+<plots/h8.jpg, id=50, 1419.3025pt x 1003.75pt>
+File: plots/h8.jpg Graphic file (type jpg)
+<use plots/h8.jpg>
+Package pdftex.def Info: plots/h8.jpg  used on input line 183.
+(pdftex.def)             Requested size: 184.9429pt x 130.78308pt.
+<plots/h9.jpg, id=51, 1419.3025pt x 1003.75pt>
+File: plots/h9.jpg Graphic file (type jpg)
+<use plots/h9.jpg>
+Package pdftex.def Info: plots/h9.jpg  used on input line 183.
+(pdftex.def)             Requested size: 184.9429pt x 130.78308pt.
+<plots/h10.jpg, id=52, 1419.3025pt x 1003.75pt>
+File: plots/h10.jpg Graphic file (type jpg)
+<use plots/h10.jpg>
+Package pdftex.def Info: plots/h10.jpg  used on input line 184.
+(pdftex.def)             Requested size: 184.9429pt x 130.78308pt.
+<plots/h11.jpg, id=53, 1419.3025pt x 1003.75pt>
+File: plots/h11.jpg Graphic file (type jpg)
+<use plots/h11.jpg>
+Package pdftex.def Info: plots/h11.jpg  used on input line 184.
+(pdftex.def)             Requested size: 184.9429pt x 130.78308pt.
+<plots/h12.jpg, id=54, 1419.3025pt x 1003.75pt>
+File: plots/h12.jpg Graphic file (type jpg)
+<use plots/h12.jpg>
+Package pdftex.def Info: plots/h12.jpg  used on input line 185.
+(pdftex.def)             Requested size: 184.9429pt x 130.78308pt.
+<plots/h13.jpg, id=55, 1419.3025pt x 1003.75pt>
+File: plots/h13.jpg Graphic file (type jpg)
+<use plots/h13.jpg>
+Package pdftex.def Info: plots/h13.jpg  used on input line 185.
+(pdftex.def)             Requested size: 184.9429pt x 130.78308pt.
+
+Overfull \hbox (42.10802pt too wide) in paragraph at lines 178--186
+[][] [] 
+ []
+
+
+Overfull \hbox (27.10802pt too wide) in paragraph at lines 178--186
+[] [] 
+ []
+
+
+Overfull \hbox (27.10802pt too wide) in paragraph at lines 178--186
+[] [] 
+ []
+
+
+Overfull \hbox (27.10802pt too wide) in paragraph at lines 178--186
+[] [] 
+ []
+
+
+Overfull \hbox (27.10802pt too wide) in paragraph at lines 178--186
+[] [] 
+ []
+
+
+Overfull \hbox (27.10802pt too wide) in paragraph at lines 178--186
+[] [] 
+ []
+
+
+Overfull \hbox (27.10802pt too wide) in paragraph at lines 178--186
+[] [] 
+ []
+
+
+Overfull \hbox (27.10802pt too wide) in paragraph at lines 178--186
+[] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--186
+
+ []
+
+[6 <./plots/width.jpg> <./plots/length.jpg> <./plots/ratio.jpg> <./plots/h1.jpg
+>] [7 <./plots/h2.jpg> <./plots/h3.jpg> <./plots/h4.jpg> <./plots/h5.jpg> <./pl
+ots/h6.jpg> <./plots/h7.jpg> <./plots/h8.jpg> <./plots/h9.jpg>] [8 <./plots/h10
+.jpg> <./plots/h11.jpg> <./plots/h12.jpg> <./plots/h13.jpg>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
- [6] (./dissertation.aux) ) 
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no “ in font cmr10!
+
+Overfull \hbox (24.08398pt too wide) in paragraph at lines 229--230
+\OT1/cmr/m/n/10 guid-ance me-di-ated three-dimensional cell mi-gra-tion is reg-
+u-lated by Rho/ROCK-
+ []
+
+
+Overfull \hbox (2.81375pt too wide) in paragraph at lines 237--238
+[]\OT1/cmr/m/n/10 Pixel con-nec-tiv-ity types. https://en.wikipedia.org/wiki/Pi
+xel[]connectivity 
+ []
+
+
+Overfull \hbox (8.673pt too wide) in paragraph at lines 241--242
+[]\OT1/cmr/m/n/10 https://scikit-image.org/docs/dev/auto[]examples/edges/plot[]
+skeleton.html 
+ []
+
+
+Overfull \hbox (32.15631pt too wide) in paragraph at lines 243--244
+[]\OT1/cmr/m/n/10 Breath-first search al-go-rithm: https://en.wikipedia.org/wik
+i/Breadth-first[]search 
+ []
+
+
+Overfull \hbox (2.01755pt too wide) in paragraph at lines 247--248
+[]\OT1/cmr/m/n/10 http://murphylab.web.cmu.edu/publications/boland/boland[]node
+26.html 
+ []
+
+
+Overfull \hbox (46.74158pt too wide) in paragraph at lines 249--250
+[]\OT1/cmr/m/n/10 Haralick fea-tures in python. https://mahotas.readthedocs.io/
+en/latest/features.html 
+ []
+
+[9]
+Overfull \hbox (30.75824pt too wide) in paragraph at lines 251--252
+[]\OT1/cmr/m/n/10 Kaplan-Meier es-ti-ma-tor. https://en.wikipedia.org/wiki/Kapl
+an--Meier[]estimator 
+ []
+
+[10] (./dissertation.aux) ) 
 Here is how much of TeX's memory you used:
- 25676 strings out of 492982
- 550926 string characters out of 6134895
- 553708 words of memory out of 5000000
- 28874 multiletter control sequences out of 15000+600000
- 535974 words of font info for 41 fonts, out of 8000000 for 9000
+ 25756 strings out of 492982
+ 552187 string characters out of 6134895
+ 554708 words of memory out of 5000000
+ 28940 multiletter control sequences out of 15000+600000
+ 536281 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,107p,10380b,275s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-
@@ -1692,10 +1870,10 @@ dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf/fonts/type1/public/cm-super/
 sfrm1000.pfb>
-Output written on dissertation.pdf (6 pages, 1656633 bytes).
+Output written on dissertation.pdf (10 pages, 3283285 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
+ 103 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 38 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 
